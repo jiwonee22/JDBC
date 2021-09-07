@@ -21,7 +21,6 @@ public class OjdbcEx_03 {
 	//OJDBC	객체
 	private static Connection conn = null; //DB연결객체
 	private static Statement st = null; //SQL수행객체
-	private static PreparedStatement ps = null; // SQL수행객체
 	private static ResultSet rs = null; //조회결과객체
 	
 	public static void main(String[] args) {

@@ -11,7 +11,7 @@ import java.util.List;
 import dao.face.EmpDao;
 import dto.Emp;
 
-public class EmpDaoImpl implements EmpDao{
+public class EmpDaoImpl implements EmpDao {
 	
 	//OJDBC 드라이버
 	private static final String DRIVER = "oracle.jdbc.driver.OracleDriver";
@@ -208,7 +208,7 @@ public class EmpDaoImpl implements EmpDao{
 
 			try {
 				//--- 자원 해제 ---
-				if(ps!=null)		ps.close();
+				if(ps != null)	ps.close();
 				//-----------------
 			} catch (SQLException e) {
 				e.printStackTrace();
